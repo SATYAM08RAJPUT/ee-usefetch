@@ -1,2 +1,2 @@
-import useFetch from "./usefetch";
+import useFetch from "./usefetch.jsx";
 export {useFetch}
