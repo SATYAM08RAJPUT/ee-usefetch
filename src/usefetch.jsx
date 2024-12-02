@@ -5,7 +5,7 @@ const useFetch = (url) => {
         useEffect(() => {
             const fetchApi = async() => {
                     const response = await fetch(url);
-                    const result = response.json()
+                    const result =  await response.json()
                     setData(result);
             }
             fetchApi();
